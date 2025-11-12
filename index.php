@@ -79,7 +79,6 @@
 </section>
 <section id="gallery" class="section bg-light">
   <div class="container">
-    <h2 class="section-title text-center mb-4">Gallery</h2>
     <div class="row">
       <!-- Main Random Image -->
       <div class="col-md-6 text-center mb-4 mb-md-0">
@@ -205,3 +204,4 @@ window.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
+
