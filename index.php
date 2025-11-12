@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon"  href="dimi.png">
   <title>The House of Dimsum</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -50,16 +51,21 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
+         <li class="nav-item">
+          <a class="nav-link" href="https://x.com/i/communities/1987856733205897607" target="_blank">
+            <i >Community</i>
+          </a>
+        </li>
         <!-- Telegram -->
         <li class="nav-item">
-          <a class="nav-link" href="https://t.me/DimTheDimsum" target="_blank">
+          <a class="nav-link" href="https://t.me/YourTelegramHandle" target="_blank">
             <i class="fab fa-telegram fa-lg"></i>
           </a>
         </li>
         <!-- Threads -->
         <li class="nav-item">
-          <a class="nav-link" href="https://x.com/DimTheDimsum" target="_blank">
-            <i class="fab fa-thread fa-lg"></i> <!-- Threads uses Instagram icon fallback -->
+          <a class="nav-link" href="https://www.threads.net/YourThreadsProfile" target="_blank">
+            <i class="fab fa-instagram fa-lg"></i> <!-- Threads uses Instagram icon fallback -->
           </a>
         </li>
       </ul>
@@ -131,14 +137,14 @@ We aim to:<br/>
   <script>
     const countdownElement = document.getElementById('countdown');
     // Set target date: Nov 12, 2025, 8:00 PM
-    const targetDate = new Date('2025-11-12T20:00:00');
+    const targetDate = new Date('2025-11-13T10:00:00');
 
     function updateCountdown() {
       const now = new Date();
       const distance = targetDate - now;
 
       if (distance <= 0) {
-        countdownElement.textContent = "Official LAUNCH date of Muebles";
+        countdownElement.textContent = "OFFICIAL LAUNCH DATE OF THE HOUSE OF DIMSUM  ON NOVEMBER 13, 2025  10:00 AM (PHILIPPINE TIME)";
         clearInterval(timerInterval);
         return;
       }
@@ -199,5 +205,3 @@ window.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
-
-
