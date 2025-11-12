@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muebles Launch</title>
+  <title>The House of Dimsum</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <style>
@@ -68,7 +68,7 @@
 </nav>
   <section id="featured-image" class="section text-center py-5">
   <div class="container">
-    <img src="image/dim5.jpg" id="featured-img" class="img-fluid rounded" alt="Featured Image" style="max-width:400px;">
+    <img src="dim5.jpg" id="featured-img" class="img-fluid rounded" alt="Featured Image" style="max-width:400px;">
   </div>
 </section>
 <section id="gallery" class="section bg-light">
@@ -158,15 +158,15 @@ We aim to:<br/>
     const timerInterval = setInterval(updateCountdown, 1000);
     updateCountdown();
   const galleryImages = [
-  'image/dim1.jpg',
-  'image/dim2.jpg',
-  'image/dim3.jpg',
-  'image/dim4.jpg',
-  'image/dim5.jpg',
-  'image/dim6.jpg',
-  'image/dim2.jpg',
-  'image/dim1.jpg',
-  'image/dim4.jpg'
+  'dim1.jpg',
+  'dim2.jpg',
+  'dim3.jpg',
+  'dim4.jpg',
+  'dim5.jpg',
+  'dim6.jpg',
+  'dim2.jpg',
+  'dim1.jpg',
+  'dim7.jpg'
 ];
 
 // Display one random main image
@@ -199,3 +199,4 @@ window.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
+
