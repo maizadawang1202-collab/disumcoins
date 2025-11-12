@@ -52,14 +52,14 @@
       <ul class="navbar-nav ms-auto">
         <!-- Telegram -->
         <li class="nav-item">
-          <a class="nav-link" href="https://t.me/YourTelegramHandle" target="_blank">
+          <a class="nav-link" href="https://t.me/DimTheDimsum" target="_blank">
             <i class="fab fa-telegram fa-lg"></i>
           </a>
         </li>
         <!-- Threads -->
         <li class="nav-item">
-          <a class="nav-link" href="https://www.threads.net/YourThreadsProfile" target="_blank">
-            <i class="fab fa-instagram fa-lg"></i> <!-- Threads uses Instagram icon fallback -->
+          <a class="nav-link" href="https://x.com/DimTheDimsum" target="_blank">
+            <i class="fab fa-thread fa-lg"></i> <!-- Threads uses Instagram icon fallback -->
           </a>
         </li>
       </ul>
@@ -199,4 +199,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
+
 
