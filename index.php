@@ -73,7 +73,7 @@
   </div>
 </nav>
   <section id="featured-image" class="section text-center py-5">
-  <div class="container">
+  <div class="container"><h2 class="section-title text-center mb-4">Gallery</h2>
     <img src="dim5.jpg" id="featured-img" class="img-fluid rounded" alt="Featured Image" style="max-width:400px;">
   </div>
 </section>
@@ -204,4 +204,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
 </body>
 </html>
+
 
