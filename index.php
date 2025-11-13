@@ -138,8 +138,8 @@ img.img-fluid {
 
   <!-- Release Message (replaces countdown) -->
   <div class="timer">
-    🎉 OFFICIAL RELEASE — The House of Dimsum is now live!<br>
-    Launched on November 13, 2025 
+    🎉 THE HOUSE OF DIMSUM IS JUST AROUND THE CORNER🎉 <br>
+    🎊 SOON TO LAUNCH 🎊
   </div>
 <br/>
   <!-- Navigation -->
@@ -183,6 +183,7 @@ img.img-fluid {
   <section id="gallery" class="section bg-light">
     <div class="container">
       <h2 class="section-title text-center mb-4"><b><u>The House of Dimsum Journey</u></h2><br/>
+      <p>IwY2xjawOCrAlleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeYH78iQri8yo0KHe9d8F4ocge2UM_7taY-FKy65rWjmzyFVgViEM9K4G8IfM_aem_zrSxonw9iDixWEa10EfIoA</p>
       <div class="row">
         <div class="col-md-6 text-center mb-4 mb-md-0">
           <img src="" id="gallery-main-img" class="img-fluid rounded" alt="Gallery Image">
