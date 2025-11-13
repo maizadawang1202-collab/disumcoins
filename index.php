@@ -5,16 +5,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="dimi.png">
   <title>The House of Dimsum</title>
-  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp:wght@400;700;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.min.css">
+<script src="bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
   <style>
  /* Body padding for top fixed elements */
 body {
   padding-top: 160px; /* timer + navbar space */
   margin: 0;
   font-family: "Playfair Display", serif;
+}
+@font-face {
+  font-family: 'LelitaOne-Regular';
+  src: url('LelitaOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'MedievalSharp';
+  src: url('MedievalSharp-Regular.ttf') format('truetype');
+  font-weight: 400;
 }
 
 /* Release message bar */
@@ -24,7 +38,7 @@ body {
   text-align: center;
   padding: 20px 15px;       /* flexible spacing */
   font-size: 1.2rem;        /* scales with screen */
-  font-family: "MedievalSharp", cursive; /* Algerian-style */
+  font-family: "Lelita One", cursive; /* Algerian-style */
   letter-spacing: 1px;
   line-height: 1.5;
   position: fixed;
@@ -124,8 +138,8 @@ img.img-fluid {
 
   <!-- Release Message (replaces countdown) -->
   <div class="timer">
-    🎉 OFFICIAL RELEASE — The House of Dimsum is now live! 🇵🇭 <br>
-    Launched on November 13, 2025 🌏✨
+    🎉 OFFICIAL RELEASE — The House of Dimsum is now live!<br>
+    Launched on November 13, 2025 
   </div>
 <br/>
   <!-- Navigation -->
@@ -142,18 +156,17 @@ img.img-fluid {
               <i>Community</i>
             </a>
           </li>
-          <!-- Telegram -->
-          <li class="nav-item">
-            <a class="nav-link" href="https://t.me/YourTelegramHandle" target="_blank">
-              <i class="fab fa-telegram fa-lg"></i>
-            </a>
-          </li>
-          <!-- Threads -->
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.threads.net/YourThreadsProfile" target="_blank">
-              <i class="fab fa-instagram fa-lg"></i>
-            </a>
-          </li>
+        <li class="nav-item">
+  <a class="nav-link" href="https://t.me/YourTelegramHandle" target="_blank">
+    <img src="telegram-brands-solid-full.svg" alt="Telegram" style="width:24px; height:24px;">
+      </a>
+    </li>
+    <!-- Threads -->
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.threads.net/YourThreadsProfile" target="_blank">
+        <img src="at-solid-full.svg" alt="Threads" style="width:24px; height:24px;">
+      </a>
+    </li>
         </ul>
       </div>
     </div>
@@ -169,7 +182,7 @@ img.img-fluid {
   <!-- Gallery -->
   <section id="gallery" class="section bg-light">
     <div class="container">
-      <h2 class="section-title text-center mb-4"><b>The House of Dimsum Journey</h2><br/>
+      <h2 class="section-title text-center mb-4"><b><u>The House of Dimsum Journey</u></h2><br/>
       <div class="row">
         <div class="col-md-6 text-center mb-4 mb-md-0">
           <img src="" id="gallery-main-img" class="img-fluid rounded" alt="Gallery Image">
