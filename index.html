@@ -11,7 +11,6 @@
   <style>
  /* Body padding for top fixed elements */
 body {
-  padding-top: 160px; /* timer + navbar space */
   margin: 0;
   font-family: "Playfair Display", serif;
 }
@@ -36,22 +35,16 @@ body {
   background-color: #343a40;
   color: #fff;
   text-align: center;
-  padding: 20px 15px;       /* flexible spacing */
-  font-size: 1.2rem;        /* scales with screen */
-  font-family: "Lelita One", cursive; /* Algerian-style */
+  padding: 15px 10px;
+  font-size: 1.2rem;
+  font-family: "Lelita One", cursive;
   letter-spacing: 1px;
   line-height: 1.5;
-  position: fixed;
-  top: 0;
   width: 100%;
-  z-index: 1000;
   word-wrap: break-word;
 }
 
-/* Navbar fixed below timer */
-.navbar.fixed-top {
-  top: 90px;
-}
+
 
 /* Section padding and typography */
 .section {
@@ -141,9 +134,8 @@ img.img-fluid {
     🎉 THE HOUSE OF DIMSUM IS JUST AROUND THE CORNER🎉 <br>
     🎊 SOON TO LAUNCH 🎊
   </div>
-<br/>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="top:85px;">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#"><hr>The House of Dimsum</hr></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -157,14 +149,14 @@ img.img-fluid {
             </a>
           </li>
         <li class="nav-item">
-  <a class="nav-link" href="https://t.me/YourTelegramHandle" target="_blank">
+  <a class="nav-link" href="https://t.me/DimTheDimsum" target="_blank">
     <img src="telegram-brands-solid-full.svg" alt="Telegram" style="width:24px; height:24px;">
       </a>
     </li>
     <!-- Threads -->
     <li class="nav-item">
-      <a class="nav-link" href="https://www.threads.net/YourThreadsProfile" target="_blank">
-        <img src="at-solid-full.svg" alt="Threads" style="width:24px; height:24px;">
+      <a class="nav-link" href="https://x.com/DimTheDimsum" target="_blank">
+        <img src="x.png" alt="Threads" style="width:24px; height:24px;">
       </a>
     </li>
         </ul>
@@ -183,7 +175,7 @@ img.img-fluid {
   <section id="gallery" class="section bg-light">
     <div class="container">
       <h2 class="section-title text-center mb-4"><b><u>The House of Dimsum Journey</u></h2><br/>
-      <p>IwY2xjawOCrAlleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEeYH78iQri8yo0KHe9d8F4ocge2UM_7taY-FKy65rWjmzyFVgViEM9K4G8IfM_aem_zrSxonw9iDixWEa10EfIoA</p>
+      <p>9qWJFfKb2WfL9arZzuTLBwkZd7maGpo9x4DohW5qpump</p>
       <div class="row">
         <div class="col-md-6 text-center mb-4 mb-md-0">
           <img src="" id="gallery-main-img" class="img-fluid rounded" alt="Gallery Image">
