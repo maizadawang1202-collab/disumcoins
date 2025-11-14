@@ -37,7 +37,7 @@ body {
   text-align: center;
   padding: 15px 10px;
   font-size: 1.2rem;
-  font-family: "Lelita One", cursive;
+  font-family: "Play Fair", 'Lucida Sans';
   letter-spacing: 1px;
   line-height: 1.5;
   width: 100%;
@@ -103,7 +103,9 @@ img.img-fluid {
     flex: 0 0 50%; /* 2 columns on small screens */
     max-width: 50%;
   }
+
 }
+
 
 @media (max-width: 480px) {
   .timer {
@@ -118,10 +120,20 @@ img.img-fluid {
   p {
     font-size: 1rem;
   }
+  .footer-custom {
+  padding: 1px 0; /* smaller top & bottom space */
+  font-size: 0.9rem; /* optional */
+}
 
   #gallery-tiles .col-4 {
     flex: 0 0 100%; /* 1 column on extra small screens */
     max-width: 100%;
+  }
+
+  .featured-img {
+  max-width: 400px;
+  width: 100%;
+  display: block;
   }
 }
 
@@ -167,7 +179,7 @@ img.img-fluid {
   <!-- Featured Image -->
   <section id="featured-image" class="section text-center py-5">
     <div class="container">
-      <img src="dim5.jpg" id="featured-img" class="img-fluid rounded" alt="Featured Image" style="max-width:400px;">
+        <img src="dim5.jpg" id="featured-img" class="img-fluid rounded featured-img" alt="Featured Image">
     </div>
   </section>
 
@@ -177,10 +189,10 @@ img.img-fluid {
       <h2 class="section-title text-center mb-4"><b><u>The House of Dimsum Journey</u></h2><br/>
       <p>9qWJFfKb2WfL9arZzuTLBwkZd7maGpo9x4DohW5qpump</p>
       <div class="row">
-        <div class="col-md-6 text-center mb-4 mb-md-0">
+        <div class="col-md-6 text-center mb-3 mb-md-0" id="feature-img">
           <img src="" id="gallery-main-img" class="img-fluid rounded" alt="Gallery Image">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-8">
           <div class="row" id="gallery-tiles">
             <!-- JS will insert tiles here -->
           </div>
@@ -220,13 +232,12 @@ img.img-fluid {
   </section>
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center p-1"><br/><br/>
+  <footer class="footer-custom bg-dark text-white text-center p-1"><br/><br/><br/>
     <p>&copy; <script>document.write(new Date().getFullYear());</script> Dimsum.</p>
   </footer>
 
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     const galleryImages = [
       'dim6.jpg',
