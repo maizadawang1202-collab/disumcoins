@@ -143,8 +143,7 @@ img.img-fluid {
 
   <!-- Release Message (replaces countdown) -->
   <div class="timer">
-    🎉 THE HOUSE OF DIMSUM IS JUST AROUND THE CORNER🎉 <br>
-    🎊 SOON TO LAUNCH 🎊
+    🎉 THE HOUSE OF DIMSUM IS JUST AROUND THE CORNER🎉 
   </div>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -278,3 +277,4 @@ img.img-fluid {
 
 </body>
 </html>
+
