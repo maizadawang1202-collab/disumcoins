@@ -137,7 +137,7 @@ img.img-fluid {
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#"><hr>The House of Dimsum</hr></a>
+      <a class="navbar-brand" href="https://x.com/i/communities/1987856733205897607"><hr>The House of Dimsum</hr></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -214,13 +214,13 @@ img.img-fluid {
   <!-- About -->
   <section id="about" class="section bg-light">
     <div class="container">
-      <h2 class="section-title"><center>About Us</center></h2>
+      <h2 class="section-title"><center>ABOUT US</center></h2>
       <p>🥢 $DIM — where ancient flavors meet modern fortunes</p>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-dark text-white text-center p-4">
+  <footer class="bg-dark text-white text-center p-1"><br/><br/>
     <p>&copy; <script>document.write(new Date().getFullYear());</script> Dimsum.</p>
   </footer>
 
