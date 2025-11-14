@@ -192,7 +192,7 @@ img.img-fluid {
         <div class="col-md-6 text-center mb-3 mb-md-0" id="feature-img">
           <img src="" id="gallery-main-img" class="img-fluid rounded" alt="Gallery Image">
         </div>
-        <div class="col-md-8">
+        <div class="col-md-6">
           <div class="row" id="gallery-tiles">
             <!-- JS will insert tiles here -->
           </div>
